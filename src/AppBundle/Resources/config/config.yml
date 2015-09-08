@@ -1,0 +1,5 @@
+services:
+    import_service:
+        class:        AppBundle\Services\ImportService
+        arguments:
+            - "@doctrine.orm.default_entity_manager"
